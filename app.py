@@ -24,8 +24,8 @@ def loadlottie_url(url):
 
 # Variables
 lottie_coding = loadlottie_url("https://lottie.host/55927ba1-585e-4ea6-8b4d-78761b905d3c/Wk57FSjytO.json")
-img_first = Image.open("D:/Own-Projects/Streamlit/images/first.jpeg")
-img_second = Image.open("D:\Own-Projects\Streamlit\images\second.jpeg")
+#img_first = Image.open("D:/Own-Projects/Streamlit/images/first.jpeg")
+#img_second = Image.open("D:\Own-Projects\Streamlit\images\second.jpeg")
 
 # Header Section
 with st.container():
@@ -52,7 +52,8 @@ with st.container():
     st.header("My Projects :")
     image_column, text_column = st.columns((1,2))
     with image_column:
-        st.image(img_first)
+        st.write("Image coming soon")
+        #st.image(img_first)
     with text_column:
         st.subheader("My work as a Data Analyst at Bhuvan Softwares")
         st.write("Analyzing the current and past datasets alongside analyzing the performance of the company in various departments and timeframes. Visualizing the data using Power BI to the core team during the regular meetings for better performance of the company. Exploring investment opportunities and demonstrated the profit plans to identify the financial performance trends. Provided the financial models using Machine Learning algorithms to the Management team for proper analysis of the organization's performance. ")
@@ -60,7 +61,8 @@ with st.container():
 with st.container():
     image_column, text_column = st.columns((1,2))
     with image_column:
-        st.image(img_second)
+        st.write("Image coming soon")
+        #st.image(img_second)
     with text_column:
         st.subheader("My work as a Lead Python Developer at Datamavic")
         st.write("Worked by leading a Python based application development team. Project was to develop a software which tracks the attendance of the employees whoever logs into the system and also monitors the exact number of hours each employee works. All the data will be converted as a report on a daily basis and shall be submitted automatically to the Director by the end of day. I have divided the work as per the ability of my team members and distributed the work accordingly and have been a team member. I got the best intern award during my internship and was rewarded with a laptop.")
