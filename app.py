@@ -15,12 +15,12 @@ def loadlottie_url(url):
     return r.json()
 
 # Use local CSS
-def local_css(file_name):
-    with open(file_name) as f:
-        st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
+#def local_css(file_name):
+#    with open(file_name) as f:
+#        st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
 
-local_css("style/style.css")
+#local_css("style/style.css")
 
 # Variables
 lottie_coding = loadlottie_url("https://lottie.host/55927ba1-585e-4ea6-8b4d-78761b905d3c/Wk57FSjytO.json")
